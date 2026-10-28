@@ -1,0 +1,35 @@
+# Local credentials and configuration (also matches nested copies).
+translator_config.ini
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local builds, diagnostics and editor state.
+/build/
+/build-public/
+/dist/
+/releases/
+/artifacts/
+*.log
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Original local reference image and scratch notes, not project sources.
+/1e87755e-c9f6-46d4-8da1-e6d1ff90ccd0.png
+/*.txt
+!requirements.txt
+!requirements-dev.txt
